@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Gesture Controller",
+  "version": "1.0",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["http://localhost:8765/"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
